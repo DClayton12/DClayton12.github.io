@@ -1,6 +1,8 @@
 $(document).ready(function(){
-	$("#hey").click(function(){
-	$("#hey").hide();
-	});
-
-});
+    $("#hey").mouseenter(function(){
+        $("#hey").fadeTo("fast",1);
+        });
+    $("#hey").mouseleave(function(){
+        $("#hey").fadeTo("fast",0.5);
+        });
+    });
