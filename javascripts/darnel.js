@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#hey").hover(function(){
+	$("#hey").click(function(){
 	$("#hey").hide();
 	});
 
